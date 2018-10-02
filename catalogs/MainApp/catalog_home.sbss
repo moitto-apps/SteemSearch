@@ -1,6 +1,6 @@
 import themes.sbss
 
-#section_search.bar: width=0.8pw, max-width=400dp, height=40dp, \
+#section_search.bar: width=0.8pw, max-width=400dp, height=44dp, \
         position=abs, gravity=center, y=-90dp, \
         content-background-color=$THEME_COLOR_02
 
