@@ -1,0 +1,9 @@
+=begin catalog
+
+=object showcase: id=showcase.blog, alternate-name=blog, data-script=search_keyword, \
+        loads-more=yes, more-count=15, preload-count=15, keep-count=15, \
+        has-header=yes, has-footer=yes, hides-navibar=yes, \
+        selectable=yes, script-when-selected=open_discussion, \
+        style=showcase_blog
+
+=end catalog

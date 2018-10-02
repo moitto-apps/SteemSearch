@@ -1,0 +1,21 @@
+import themes.sbss
+
+#section_search.bar: width=0.8pw, max-width=400dp, height=40dp, \
+        position=abs, gravity=center, y=-90dp, \
+        content-background-color=$THEME_COLOR_02
+
+#btn_search: width=1pw, height=1ph, position=abs, gravity=center, \
+        content-border-width=1px, 
+#label_search: position=abs, gravity=left, x=12dp, \
+        font-family=$SANSSERIF_MEDIUM, font-size=1.2, text-color=$THEME_COLOR_100
+#img_search: width=1ph-14dp, height=1ph-14dp, position=abs, gravity=right, x=-5dp
+
+#bold: font-family=$SANSSERIF_BOLD
+#owner: style=bold, font-size=1.05
+
+/catalog: page-background-color=$THEME_COLOR_03
+/catalog/title: display=block, position=abs, gravity=center, y=-200dp, \
+        font-family=$SANSSERIF_LIGHT, font-size=2.7, \
+        text-color=$THEME_COLOR_100, text-align=center
+/catalog/title/owner: margin-top=10dp, font-family=$SANSSERIF_MEDIUM, font-size=0.9
+/catalog/search.bar: display=none, text-align=center

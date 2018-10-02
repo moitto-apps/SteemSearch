@@ -1,0 +1,7 @@
+=begin pane
+
+=object showcase: id=showcase.query.history, \
+        selectable=yes, script-when-selected=select_keyword, \
+        style=showcase_query.history
+
+=end pane

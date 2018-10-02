@@ -1,0 +1,18 @@
+=begin catalog
+
+=begin title
+스팀 =[bold|검색]=
+=begin owner
+powered by =[owner|moitto™]=
+=end owner
+=end title
+
+=object section: section=search.bar, style=section_search.bar
+
+=begin search.bar: id=search.bar
+=object button: action=popup, display-unit=S_QUERY, style=btn_search
+=object label: text="검색", style=label_search
+=object image: filename="icon_search.png", style=img_search
+=end search.bar
+
+=end catalog

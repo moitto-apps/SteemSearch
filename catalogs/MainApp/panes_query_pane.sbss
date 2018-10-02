@@ -1,0 +1,13 @@
+import themes.sbss
+
+#showcase_query: width=1pw, height=1ph-36dp, display=none, \
+        column-count=1, cell-size="1pw, 40dp", \
+        autoresizing=flexible-size, bounces=no
+
+#showcase_query.history: style=showcase_query, \
+        name=query.history, \
+        sortable=yes, sortkey=rowid, sortorder=descending
+
+if $NUMBER == 1
+    #showcase_query.history: display=object
+end

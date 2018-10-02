@@ -1,0 +1,11 @@
+import themes.sbss
+
+#btn_clear: label="검색기록 전체삭제", height=40dp, position=abs, gravity=left, x=5dp, \
+        label-font-family=$SANSSERIF_MEDIUM, label-font-size=0.9, \
+        label-color=$THEME_COLOR_100, label-align=left
+
+/toolbar: page-background-color=$THEME_COLOR_00
+
+if "${PANE}" == "1"
+    #btn_clear: script=clear_keywords
+end

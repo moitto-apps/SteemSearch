@@ -1,0 +1,24 @@
+=begin popup
+
+=object panes: alternate-name=query, \
+        number-of-panes=1, pane-display-unit=P_QUERY, \
+        has-navibar=yes, has-toolbar=yes, auto-hides-toolbar=no, \
+        style=panes_query
+
+=object section: style=section_query.bar
+=object section: style=section_suggestion
+
+=begin query.bar: id=query.bar, form=search
+=object image: style=img_query.bar
+=object textfield: style=textfield_keyword
+=object label: style=label_placeholder
+=object input: style=input_keyword
+=object button: style=btn_clear
+=object button: style=btn_close
+=end query.bar
+
+=begin suggestion: id=suggestion, 
+=object showcase: style=showcase_suggestion
+=end suggestion
+
+=end popup

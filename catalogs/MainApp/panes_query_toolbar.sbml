@@ -1,0 +1,5 @@
+=begin toolbar
+
+=object button: style=btn_clear
+
+=end toolbar
